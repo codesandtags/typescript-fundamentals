@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to bottom, rgb(70, 17, 176), rgb(255, 157, 71));
+  padding: 0;
+  min-height: 100vh;
+  color: whitesmoke;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    padding: 1rem 0;
+  }
+}
+
+.custom-marker {
+  color: black;
+}
